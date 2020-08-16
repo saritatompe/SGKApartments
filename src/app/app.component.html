@@ -1,3 +1,9 @@
-
+<div class="topcorner">
+    {{'LOGIN.LANGUAGE'|translate}}
+    <select class="browser-default custom-select" (change)="setLanguage($event,value)">
+        <option selected [value]="en">{{'LOGIN.ENGLISH' | translate}}</option>
+        <option [value]="mr">{{'LOGIN.MARATHI' | translate}}</option>
+    </select>
+ </div>       
 <app-login></app-login>
 <router-outlet></router-outlet>

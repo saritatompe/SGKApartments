@@ -1,0 +1,12 @@
+{
+    "LOGIN" : {
+            "USER_NAME" : "उपयोजकाचे नाव",
+            "USER_PASSWORD" : "पासवर्ड",
+            "ROLE": "Role",
+            "LOGIN": "लॉगिन",
+            "LANGUAGE":"भाषा",
+            "ENGLISH":"इंग्रजी",
+            "MARATHI": "मराठी"
+            }
+        
+}

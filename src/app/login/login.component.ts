@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 
 @Component({
@@ -15,9 +16,11 @@ export class LoginComponent implements OnInit {
   constructor(
     private formBuilder: FormBuilder,
     private router: Router,
-    private route: ActivatedRoute
-
-  ) { }
+    private route: ActivatedRoute,
+    private translate: TranslateService
+  ) { 
+    // translate.setDefaultLang('mr');
+  }
 
   ngOnInit() {
     this.loginForm = this.formBuilder.group({
