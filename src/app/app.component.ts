@@ -8,13 +8,17 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'SGKApartments';
-
+  languages = [
+    { id: 1, code: "en", name:"English" },
+    { id: 2, code: "mr", name:"Marathi" }
+    ];
+  
+  
   constructor(private translate: TranslateService) {
     translate.setDefaultLang('en');
   }
-  setLanguage(event,value){
+  onChange(event){
     debugger
-    console.log("jdkhjkhkdsj",value);
-    this.translate.setDefaultLang('en');
+    this.translate.setDefaultLang(event);
   }
 }

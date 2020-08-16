@@ -17,8 +17,10 @@
     <div class="form-group">
         <button [disabled]="loading" class="btn btn-primary">
             <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
-            Login
+            {{
+                'LOGIN.LOGIN' | translate
+            }}
         </button>
-        <a routerLink="/register" class="btn btn-link">Register</a>
+        <a routerLink="/register" class="btn btn-link">{{'LOGIN.REGISTER'|translate}}</a>
     </div>
 </form>

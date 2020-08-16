@@ -1,12 +1,13 @@
 {
     "LOGIN" : {
-            "USER_NAME" : "उपयोजकाचे नाव",
+            "USER_NAME" : "वापरकर्ताचे नाव",
             "USER_PASSWORD" : "पासवर्ड",
             "ROLE": "Role",
             "LOGIN": "लॉगिन",
             "LANGUAGE":"भाषा",
             "ENGLISH":"इंग्रजी",
-            "MARATHI": "मराठी"
+            "MARATHI": "मराठी",
+            "REGISTER": "नवीन वापरकर्ता"
             }
         
 }

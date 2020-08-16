@@ -6,7 +6,8 @@
             "LOGIN": "Login",
             "LANGUAGE": "Language",
             "ENGLISH":"English",
-            "MARATHI": "Marathi"
+            "MARATHI": "Marathi",
+            "REGISTER": "Register"
             }
         
 }
