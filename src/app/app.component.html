@@ -1,9 +1,14 @@
 <div class="topcorner">
     {{'LOGIN.LANGUAGE'|translate}}
-    <select class="browser-default custom-select" (change)="setLanguage($event,value)">
+    <!-- <select class="browser-default custom-select" (ngModelChange)="setLanguage($event,value)">
         <option selected [value]="en">{{'LOGIN.ENGLISH' | translate}}</option>
         <option [value]="mr">{{'LOGIN.MARATHI' | translate}}</option>
-    </select>
+    </select> -->
+    <select  formControlName="language" class="browser-default custom-select"  (change)="onChange($event.target.value)">
+        <option *ngFor="let language of languages" [value]="language.code">  
+           {{language.name}}
+         </option>
+       </select>
  </div>       
 <app-login></app-login>
 <router-outlet></router-outlet>
