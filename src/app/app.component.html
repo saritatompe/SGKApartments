@@ -4,11 +4,11 @@
         <option selected [value]="en">{{'LOGIN.ENGLISH' | translate}}</option>
         <option [value]="mr">{{'LOGIN.MARATHI' | translate}}</option>
     </select> -->
-    <select  formControlName="language" class="browser-default custom-select"  (change)="onChange($event.target.value)">
+    <select class="browser-default custom-select"  (change)="onChange($event.target.value)">
         <option *ngFor="let language of languages" [value]="language.code">  
            {{language.name}}
          </option>
        </select>
  </div>       
-<app-login></app-login>
 <router-outlet></router-outlet>
+

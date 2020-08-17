@@ -7,7 +7,16 @@
             "LANGUAGE":"भाषा",
             "ENGLISH":"इंग्रजी",
             "MARATHI": "मराठी",
-            "REGISTER": "नवीन वापरकर्ता"
-            }
-        
+            "REGISTER": "नोंदणी करा",
+            "ENTER_USER_NAME":"वापरकर्त्याचे नाव टाका",
+            "ENTER_EMAIL":"ईमेल टाका",
+            "ENTER_PASSWORD": "पासवर्ड टाका",
+            "SELECT_ROLE":"भूमिका निवडा",
+            "CANCEL": "रद्द करा"
+            },
+        "ROLES":{
+            "ADMIN": "प्रशासन",
+            "TENANT":"भाडेकरु",
+            "LANDLORD": "घराचा मालक"
+            } 
 }

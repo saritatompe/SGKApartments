@@ -6,18 +6,21 @@ import { AppComponent } from './app.component';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
-
+import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login/login.component';
+import { RegisteruserComponent } from './login/registeruser/registeruser.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+    RegisteruserComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    CommonModule,
     ReactiveFormsModule,
     HttpClientModule,
     TranslateModule.forRoot({

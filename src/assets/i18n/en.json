@@ -7,7 +7,16 @@
             "LANGUAGE": "Language",
             "ENGLISH":"English",
             "MARATHI": "Marathi",
-            "REGISTER": "Register"
-            }
-        
+            "REGISTER": "Register",
+            "ENTER_USER_NAME":"Enter User Name",
+            "ENTER_EMAIL":"Enter Email Address",
+            "ENTER_PASSWORD": "Enter Password",
+            "SELECT_ROLE":"Select Role",
+            "CANCEL":"Cancel"
+            },
+            "ROLES":{
+                "ADMIN": "Admin",
+                "TENANT":"Tenant",
+                "LANDLORD": "Landlord"
+                } 
 }
